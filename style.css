@@ -46,6 +46,21 @@ body {
   color: var(--verydarkblue);
 }
 
+.nav .nav-list .sign-up {
+  color: white;
+  background-color: var(--verydarkblue);
+  padding: 10px 20px;
+  transition: all 0.3s ease-in-out;
+}
+
+.nav .nav-list .sign-up:hover {
+  border-color: var(--verydarkblue);
+  color: white;
+  box-shadow: 0 0.5em 0.5em -0.4em var(--verydarkblue);
+  transform: translateY(-0.4em);
+  cursor: pointer;
+}
+
 /* HERO STYLING */
 
 .hero-container {
